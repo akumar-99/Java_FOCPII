@@ -1,11 +1,11 @@
 public class Program3 {
 	public static void main(String[] args) {
 		System.out.println("S.No.\tData Type\tSize\tMinimum Value\t\t\tMaximum Value");
-		System.out.println("1.\tLong\t\t64\t-9,223,372,036,854,775,808\t9,223,372,036,854,775,807");
-		System.out.println("2.\tInt\t\t32\t-2,147,483,648\t\t\t2,147,483,647");
-		System.out.println("3.\tShort\t\t16\t-32,768\t\t\t\t32,767");
-		System.out.println("4.\tByte\t\t8\t-128\t\t\t\t127");
-		System.out.println("5.\tDouble\t\t64\t4.9e-324\t\t\t1.8e+308");
-		System.out.println("6.\tFloat\t\t32\t1.4e-045\t\t\t3.4e+038");
+		System.out.println("1.\t"+Long.TYPE+"\t\t"+Long.SIZE+"\t"+Long.MIN_VALUE+"\t\t"+Long.MAX_VALUE);
+		System.out.println("2.\t"+Integer.TYPE+"\t\t"+Integer.SIZE+"\t"+Integer.MIN_VALUE+"\t\t\t"+Integer.MAX_VALUE);
+		System.out.println("3.\t"+Short.TYPE+"\t\t"+Short.SIZE+"\t"+Short.MIN_VALUE+"\t\t\t\t"+Short.MAX_VALUE);
+		System.out.println("4.\t"+Byte.TYPE+"\t\t"+Byte.SIZE+"\t"+Byte.MIN_VALUE+"\t\t\t\t"+Byte.MAX_VALUE);
+		System.out.println("5.\t"+Character.TYPE+"\t\t"+Character.SIZE+"\t"+Character.MIN_VALUE+"\t\t\t\t"+Character.MAX_VALUE);
+		System.out.println("6.\t"+Float.TYPE+"\t\t"+Float.SIZE+"\t"+Float.MIN_VALUE+"\t\t\t\t"+Float.MAX_VALUE);
    }
 }
