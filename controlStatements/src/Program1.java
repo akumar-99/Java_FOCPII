@@ -3,7 +3,7 @@ import java.lang.Math;
 public class Program1
 {
     public static void main(String[] args) 
-      {
+    {
         int a; //Coefficient of x^2
         int b; //Coefficient of x
         int c; //Constant

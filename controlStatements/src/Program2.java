@@ -2,7 +2,7 @@ import java.util.Scanner;
 public class Program2
 {
     public static void main(String[] args) 
-      {
+    {
         int no; //Number to check with 
         char ch;
         Scanner input = new Scanner(System.in);
@@ -35,7 +35,7 @@ public class Program2
                 System.out.println("December");
             else if (no>12 || no<12)
                 System.out.println("Sorry I need a number from 1-12.");
-            System.out.print("Press Y to continue else any key to continue :");
+            System.out.print("Press Y to continue else any key to exit :");
             ch = input.next().charAt(0);
             } while (ch == 'Y' || ch == 'y');         
     }
