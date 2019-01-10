@@ -3,5 +3,5 @@ public class Program2 {
     	char ch = 'a';
       	int num = ch;
 		System.out.println("ASCII VALUE of " + ch + " is " + num);
-   }
+    }
 }
