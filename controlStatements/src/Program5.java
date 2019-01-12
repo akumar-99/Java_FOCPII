@@ -15,7 +15,7 @@ public class Program5 {
         n = input.nextInt();
         for (i=1; i<=n; ++i){
             factorial *= i;
-			sum += Math.pow(x,i) / factorial;
+	    sum += Math.pow(x,i) / factorial;
         }
         System.out.println("Sum of the EQUATION = " + sum);
     }
