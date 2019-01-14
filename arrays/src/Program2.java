@@ -1,15 +1,15 @@
 import java.util.*;
-class Program2{
+class Program2 {
     static Scanner in = new Scanner(System.in);
     static int num[] = new int[10];
-    static int rowcounter = 0;
+    static int rowCounter = 0;
     static int searchElement = 0;
     static int searchIndex = -1;
     static void getInput(){
         //input from user
-        for(rowcounter=0;rowcounter<num.length;rowcounter++){
-            System.out.print("Enter the element [" + (rowcounter+1) + "] : ");
-            num[rowcounter] = in.nextInt();
+        for(rowCounter=0;rowCounter<num.length;rowCounter++){
+            System.out.print("Enter the element [" + (rowCounter+1) + "] : ");
+            num[rowCounter] = in.nextInt();
             System.out.println();
         }
     }
@@ -23,8 +23,8 @@ class Program2{
     static void displayElement(){
         //print the array
         System.out.println("Elements in the array are : ");
-        for(rowcounter=0;rowcounter<num.length;rowcounter++){
-            System.out.print(num[rowcounter] + "\t");
+        for(rowCounter=0;rowCounter<num.length;rowCounter++){
+            System.out.print(num[rowCounter] + "\t");
         }
         System.out.println();
     }
@@ -32,23 +32,22 @@ class Program2{
     static void findElement(){
         //search for the element
         boolean flag = false;
-        for(rowcounter=0;rowcounter<num.length;rowcounter++){
-            if(num[rowcounter] == searchElement){
+        for(rowCounter=0; rowCounter<num.length; rowCounter++){
+            if(num[rowCounter] == searchElement){
                 flag = true;
-                searchIndex = rowcounter;
+                searchIndex = rowCounter;
                 break;
             }
         }
-        if(flag){
+        if(flag) {
             System.out.println("Element found at index location : " + (searchIndex));
         }
-        else{
+        else {
             System.out.println("Element found at index location : " + (searchIndex));
         }
     }
 
     public static void main(String args[]){
-        
         getInput();
         searchElements();
         displayElement();
