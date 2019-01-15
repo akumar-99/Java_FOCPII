@@ -3,7 +3,7 @@ class Circle {
     final double PI = 3.14;
     double radius;
 
-    public Circle() {
+    Circle() {
         radius = 1.0;
     }
 
@@ -20,7 +20,8 @@ class Circle {
     }
 
     void display() {
-        System.out.println("Raduis is " + radius);
+        System.out.println();
+        System.out.println("Radius is " + radius);
         area();
         circumference();
     }
