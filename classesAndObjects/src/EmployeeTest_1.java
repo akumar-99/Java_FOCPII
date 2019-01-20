@@ -7,9 +7,9 @@ class Employee_1 {
     Scanner input = new Scanner(System.in);
 
     Employee_1() {
-        fName = null;
-        lName = null;
-        salary = 0;
+        name = null;
+        yearOfJoining = 0000;
+        salary = 0.0;
         address = null;
     }
 
@@ -20,12 +20,11 @@ class Employee_1 {
         this.address = address;
     }
 
-    void getInfo() {
-        System.out.print("Enter First Name : ");
-        fName = input.next();
-        System.out.print("Enter Last Name : ");
-        lName = input.next();
-        double salary;
+    public void getInfo() {
+        System.out.print("Enter Name : ");
+        name = input.next();
+        System.out.print("Enter Year of Joining : ");
+        yearOfJoining = input.nextInt();
         System.out.print("Enter Monthly Salary : ");
         do {
             salary = input.nextDouble();
@@ -35,16 +34,11 @@ class Employee_1 {
                 System.out.print("Re-Enter Monthly Salary : ");
         } while (true);
         System.out.print("Enter Address : ");
-        salary = input.next();
-
+        address = input.next();
     }
 
     void displayInfo() {
-        System.out.println();
-        System.out.println("Employee Name : " + name);
-        System.out.println("Year of Joining : " + yearOfJoining);
-        System.out.println("Salary : " + salary);
-        System.out.println("Address : " + address);
+        System.out.println(name + "\t\t" + yearOfJoining + "\t" + address);
     }
 }
 
@@ -55,13 +49,13 @@ public class EmployeeTest_1 {
         System.out.println("Enter Number of Employees : ");
         int eNo ;       //Number of Employees
         eNo = input.nextInt();
-        for (int i=0; i<eNo; )
-
-        
-
-        Employee e1 = new Employee();
-        Employee e2 = new Employee(fName, lName, salary);
-        e1.displayInfo();
-        e2.displayInfo();
+        for (int i=0; i<eNo; i++) {
+            employee[i] = new Employee_1();
+            employee[i].getInfo();
+        }
+        System.out.println("Employee\tName\tYear of Joining\tAddress");
+        for (int i=0; i<eNo; i++) {
+            employee[i].displayInfo();
+        }
     }
 }
