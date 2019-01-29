@@ -39,11 +39,11 @@ public class Program9
 
 		//OUTPUT
 	  	//Using printf functions of C
-	  	for(col = 0; col<5; col++)
-	     	avgSubject[col] = 0;
+	  	// for(col = 0; col<5; col++)
+	   //   	avgSubject[col] = 0;
 		 
 	  	System.out.printf("%7s%9s%9s%9s%9s%9s%15s\n", "Student|", "Subject 1|", "Subject 2|", "Subject 3|", "Subject 4|", "Subject 5|","Student Average");
-	
+		int nOfStudents = 0;
 	  	for(row = 0; row<10; row++)
 	  	{
 	     	avgStudent = 0;
@@ -51,16 +51,32 @@ public class Program9
 		 	for(col = 0; col<5; col++)
 		 	{
 		    	System.out.printf("%9d|", grades[row][col]);
-				avgStudent += grades[row][col];
-				avgSubject[col] += grades[row][col];
+				if (grades[row][col] != 0) {
+					avgStudent += grades[row][col];
+					nOfStudents = col;
+				}
 		 	}
-		 	avgStudent = avgStudent;
+		 	avgStudent = avgStudent/(nOfStudents+1);
 		 	System.out.printf("%15f|\n", avgStudent);
 		}
+
+		for(col = 0; col<5; col++)
+	  	{
+	     	int i = 0;
+		 	for(row = 0; row<10; row++)
+		 	{
+				if (grades[col][row] != 0) {
+					avgSubject[row] += grades[row][col];
+					i++;
+				}
+		 	}
+		 	avgSubject[row] = avgSubject[row]/(i);
+		}
+
 	  	System.out.printf("%7s|", "Average");
-	  	for(col = 0; col < 5; col++)
+	  	for(col = 0; col < 5; col++) {
 	     	System.out.printf("%9f|", avgSubject[col]);
-	  	
+	  	}
 	  	System.out.println();	
    	}
 }

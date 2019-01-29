@@ -3,23 +3,22 @@ class Circle {
 	private double radius;
    	private String color;
 
-
    	public Circle() {
-      this.radius = 1.0;
-      this.color = "red";
+        this.radius = 1.0;
+        this.color = "red";
    	}
 
    	public Circle(double radius) {
-      this.radius = radius;
-      this.color = "red";
+        this.radius = radius;
+        this.color = "red";
    	}
    	public Circle(double radius, String color) {
-      this.radius = radius;
-      this.color = color;
+        this.radius = radius;
+        this.color = color;
    	}
 
    	public double getRadius() {
-      return this.radius;
+        return this.radius;
    	}
 
    	public void setRadius(double radius) {
@@ -27,7 +26,7 @@ class Circle {
    	}
 
    	public String getColor() {
-      return this.color;
+        return this.color;
   	}
 
   	public void setColor(String color) {

@@ -4,46 +4,57 @@ class Student {
 	String firstName;
 	String lastName;
 	Address addr;
-	Date dob;		//Date of Birth
+	String dob;		//Date of Birth
 	String[] skills;
 	Qualification[] qual;
 	Project[] projects;
 	String eMail;
 	String contactNo;
 
-	Student(int s, int q, int p) {		//lengths :: s-skills, q-qual, p-projects
-		firstName = "";
-		lastName = "";
-		addr = new Address();
-		dob = new Date();		//Date of Birth
-		skills = new String[s];
-		qual = new Qualification[q];
-		projects = new Project[p];
-		eMail = "";
-		contactNo = "";
+	Student(String firstName, String lastName, Address addr, String dob, String[] skills, Qualification[] qual, Project[] projects, String eMail, String contactNo) {		//lengths :: s-skills, q-qual, p-projects
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.addr = addr;
+		this.dob = dob;		//Date of Birth
+		this.skills = skills;
+		this.qual = qual;
+		this.projects = projects;
+		this.eMail = eMail;
+		this.contactNo = contactNo;
 	}
 
-	Student(int s, int q) {		//lengths :: s-skills, q-qual
-		firstName = "";
-		lastName = "";
-		addr = new Address();
-		dob = new Date();		//Date of Birth
-		skills = new String[s];
-		qual = new Qualification[q];
-		eMail = "";
-		contactNo = "";
+	Student(String firstName, String lastName, Address addr, String dob, String[] skills, Qualification[] qual, String eMail, String contactNo) {		//lengths :: s-skills, q-qual, p-projects
+		this.firstName = firstName;
+		this.lastName = lastName;
+		this.addr = addr;
+		this.dob = dob;		//Date of Birth
+		for (int i=0; i<skills.length; i++) {
+			this.skills[i] = skills[i];
+		}
+		for (int j=0; j<qual.length; j++) {
+			this.qual[j] = qual[j];
+		}
+		this.eMail = eMail;
+		this.contactNo = contactNo;
 	}
 
-	void display(int s, int q, int p) {		//lengths :: s-skills, q-qual, p-projects
+	void display() {		
+		System.out.println("");
+		System.out.println("STUDENT DETAILS");
 		System.out.println("NAME\t:\t" + firstName + " " + lastName);
 		addr.display();
 		System.out.println("DATE OF BIRTH\t:\t" + dob);
-		System.out.println("SKILLS\t:" + skills);
-		for(int i=0; i<s; i++) {
+		System.out.println("SKILLS\t::");
+		for(int i=0; i<skills.length; i++) {
 			System.out.println(skills[i]);
 		}
-		qual[q].display();
-		projects[p].display();
+		for(int i=0; i<qual.length; i++) {
+			qual[i].display();
+		}
+		for(int i=0; i<projects.length; i++) {
+			projects[i].display();
+		}
+		
 		System.out.println("E-MAIL\t:\t" + eMail);
 		System.out.println("CONTACT NO.\t:\t" + contactNo);
 

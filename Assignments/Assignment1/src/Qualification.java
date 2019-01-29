@@ -5,17 +5,18 @@ class Qualification {
 	String institute;
 	float cgpa;
 
-	Qualification() {
-		qualName = "";
-		university = "";
-		institute = "";
-		cgpa = 0.0f;
+	Qualification(String qualName, String university, String institute, float cgpa) {
+		this.qualName = qualName;
+		this.university = university;
+		this.institute = institute;
+		this.cgpa = cgpa;
 	}
 
 	void display() {
-		System.out.println("QUALIFICATION\t:\t" + qualName);
-		System.out.println("\t\t\t" + university);
-		System.out.println("\t\t\t" + institute);
-		System.out.println("\t\t\t" + cgpa);
+		System.out.println("QUALIFICATION\t:\t");
+		System.out.println("QUALIFICATION NAME\t:\t" + qualName);
+		System.out.println("UNIVERSITY\t:\t" + university);
+		System.out.println("INSTITUTE\t:\t" + institute);
+		System.out.println("CGPA\t:\t" + cgpa);
 	}
 }
