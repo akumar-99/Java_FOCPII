@@ -10,8 +10,8 @@ class ExceptionTest1 {
 		return (a/b);
 	}
 	public static void main(String[] args) {
-		ExceptionTest t1 = new ExceptionTest(33, 4);
-		ExceptionTest t2 = new ExceptionTest(3, 0);
+		ExceptionTest1 t1 = new ExceptionTest1(33, 4);
+		ExceptionTest1 t2 = new ExceptionTest1(3, 0);
 		try {
 			// to print our message, overrides catch default msg
 			// if (t2.b == 0) {

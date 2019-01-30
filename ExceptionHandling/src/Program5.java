@@ -1,9 +1,10 @@
 import java.lang.*;
 class CheckArgumentException extends Exception {
-    CheckArgumentException(String n)
+    CheckArgumentException(String n) {
         super(n);
+    }
 }
-class Program5 {
+class Program4 {
     static boolean isNumeric(String s) {  
         return s != null && s.matches("[-+]?\\d*\\.?\\d+");  //Using regular expressions
     }  

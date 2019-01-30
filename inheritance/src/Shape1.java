@@ -28,7 +28,8 @@ class Shape1 {
 		this.filled = filled;
 	}
 
-	// String toString() {
-
-	// }
+	//System.out.println(objectname) - used to print directly using object name
+	public String toString() {
+		return "color" + color + "filled" + filled;
+	}
 }

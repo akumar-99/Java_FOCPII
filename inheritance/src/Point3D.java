@@ -25,9 +25,11 @@ class Point3D extends Point2D {
 		this.z = z;
 	}
 
-	// float[] getXYZ() {
-	// }
-
+	float[] getXYZ() {
+		float temp[] = {getX(), getY(), this.z};
+		return temp;
+	}
+	
 	public String toString() {
 		String temp = Float.toString(getX()) + "," + Float.toString(getY()) + "," + Float.toString(z);
 		return temp;

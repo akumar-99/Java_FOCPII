@@ -42,7 +42,7 @@ class Rectangle1 extends Shape1 {
 		return (2*(length+width));
 	}
 
-	// String toString() {
-
-	// }
+	public String toString() {
+		return "width" + width;
+	}
 }

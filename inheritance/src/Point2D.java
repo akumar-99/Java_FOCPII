@@ -31,8 +31,12 @@ class Point2D {
 		this.y = y;
 	}
 
-	// float[] getXY() {
-	// }
+	float[] getXY() {
+		float temp[] = new float[2];
+		temp[0] = this.x;
+		temp[1] = this.y;
+		return temp;
+	}
 
 	public String toString() {
 		String temp = Float.toString(x) + "," + Float.toString(y);

@@ -36,6 +36,10 @@ class Distance_1 {
 		return inches;	
 	}
 	
+	/*
+	static method cannot return using this
+	passing object to static will put it defualt values
+	*/
 	static Distance_1 Sum(float feet1, float feet2, float inches1, float inches2)
 	{
 		Distance_1 d3 = new Distance_1();

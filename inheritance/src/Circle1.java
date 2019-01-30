@@ -31,7 +31,7 @@ class Circle1 extends Shape1 {
 		return (2*pi*radius);
 	}
 
-	// String toString() {
-
-	// }
+	public String toString() {
+		return ("radius" + radius);
+	}
 }
