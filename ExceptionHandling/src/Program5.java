@@ -1,39 +1,37 @@
 import java.lang.*;
-class CheckArgumentException extends Exception {
-    CheckArgumentException(String n) {
-        super(n);
-    }
+class LevelOneException extends Exception {}
+class LevelTwoException extends LevelOneException {}
+class LevelThreeException extends LevelTwoException {} 
+
+class A {
+	void f() throws LevelOneException {
+		throw new LevelOneException();
+	}
 }
-class Program4 {
-    static boolean isNumeric(String s) {  
-        return s != null && s.matches("[-+]?\\d*\\.?\\d+");  //Using regular expressions
-    }  
-    public static void main(String args[])
-    {
-        try {
-            if (args.length<5) {
-                throw new CheckArgumentException("Num<5");
-            }
-            int sum = 0;
-            int num;
-            for (int i=0; i<args.length; i++) {
-                // //parsing string value to int
-                // num = Integer.parseInt(args[i]);
-                // sum = sum + num;
-                if (isNumeric(args[i])) {
-                    num = Integer.parseInt(args[i]);
-                    sum += num;
-                }
-                else
-                    throw new CheckArgumentException("Command line argument should be of integer type");
-            }
-            System.out.println("SUM = " + sum);
-        }
-        catch(CheckArgumentException e) {
-            System.out.println(e.getMessage());
-        }
-        // catch(NumberFormatException e1) {
-        //     System.out.println(e1.getMessage() + " not an integer");
-        // }
-    }
+
+class B extends A {
+	void f() throws LevelTwoException {
+		throw new LevelTwoException();
+	}
+}
+
+class C extends B {
+	void f() throws LevelThreeException {
+		throw new LevelThreeException();
+	}
+}
+
+class Program5 {
+	public static void main(String[] args) {
+		A a = new C();
+		try {
+			a.f();
+		}	catch(LevelThreeException e3) {
+			System.out.println("Caught e3");			
+		}	catch(LevelTwoException e2) {
+			System.out.println("Caught e2");
+		}	catch(LevelOneException e1) {
+			System.out.println("Caught e1");
+		}
+	}
 }

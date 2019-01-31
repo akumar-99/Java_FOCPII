@@ -2,7 +2,7 @@ import java.io.*;
 public class FileDemo {
     public static void main(String[] args) {
         File f = null;
-        String strs = "test1.txt";
+        String strs = "C:\\College\\Java_FOCPII\\FileHandling\\files\\file.txt";
         // exception necessary
         try {
             // create new file
