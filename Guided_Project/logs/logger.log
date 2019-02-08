@@ -1,0 +1,133 @@
+2019-02-07 22:05:52 INFO  JSONConverter:38 -  !...(*.*) Please Enter Your Csv File Name __:- 
+2019-02-07 22:06:12 INFO  NameValidator:202 - 
+ 
+com.ncu.exceptions.FileNotAvailable: "Oops.. Given File Is File Is Not Available Into Our Directory ...!"
+
+2019-02-07 22:06:12 INFO  NameValidator:203 - Do You Want To See List Of Available csv file Press - y/n  
+2019-02-07 22:06:16 INFO  NameValidator:212 - ----------- All Available Files In Directory --------- 
+2019-02-07 22:07:53 INFO  JSONConverter:38 -  !...(*.*) Please Enter Your Csv File Name __:- 
+2019-02-07 22:07:57 ERROR NameValidator:76 - 
+ 
+com.ncu.exceptions.MissingExtensionException: "Oops.. Extension Is Missing .You Should Also Give .csv Extension ...!"
+
+2019-02-07 22:07:57 INFO  JSONConverter:38 -  !...(*.*) Please Enter Your Csv File Name __:- 
+2019-02-07 22:08:00 INFO  NameValidator:202 - 
+ 
+com.ncu.exceptions.FileNotAvailable: "Oops.. Given File Is File Is Not Available Into Our Directory ...!"
+
+2019-02-07 22:08:01 INFO  NameValidator:203 - Do You Want To See List Of Available csv file Press - y/n  
+2019-02-07 22:08:02 INFO  NameValidator:212 - ----------- All Available Files In Directory --------- 
+2019-02-07 22:08:13 INFO  JSONConverter:38 -  !...(*.*) Please Enter Your Csv File Name __:- 
+2019-02-07 22:08:17 INFO  NameValidator:202 - 
+ 
+com.ncu.exceptions.FileNotAvailable: "Oops.. Given File Is File Is Not Available Into Our Directory ...!"
+
+2019-02-07 22:08:17 INFO  NameValidator:203 - Do You Want To See List Of Available csv file Press - y/n  
+2019-02-07 22:14:06 ERROR NameValidator:76 - 
+ 
+com.ncu.exceptions.MissingExtensionException: "Oops.. Extension Is Missing .You Should Also Give .csv Extension ...!"
+
+2019-02-07 22:14:06 INFO  JSONConverter:39 -  !...(*.*) Please Enter Your Csv File Name __:- 
+2019-02-07 22:14:10 INFO  JSONConverter:39 -  !...(*.*) Please Enter Your Csv File Name __:- 
+2019-02-07 22:16:05 INFO  JSONConverter:39 -  !...(*.*) Please Enter Your Csv File Name __:- 
+2019-02-07 22:16:52 INFO  JSONConverter:39 -  !...(*.*) Please Enter Your Csv File Name __:- 
+2019-02-07 22:17:05 INFO  JSONConverter:39 -  !...(*.*) Please Enter Your Csv File Name __:- 
+2019-02-07 22:17:08 ERROR NameValidator:76 - 
+ 
+com.ncu.exceptions.MissingExtensionException: "Oops.. Extension Is Missing .You Should Also Give .csv Extension ...!"
+
+2019-02-07 22:17:08 INFO  JSONConverter:39 -  !...(*.*) Please Enter Your Csv File Name __:- 
+2019-02-07 22:17:09 ERROR NameValidator:76 - 
+ 
+com.ncu.exceptions.MissingExtensionException: "Oops.. Extension Is Missing .You Should Also Give .csv Extension ...!"
+
+2019-02-07 22:17:09 INFO  JSONConverter:39 -  !...(*.*) Please Enter Your Csv File Name __:- 
+2019-02-07 22:17:18 ERROR NameValidator:79 - 
+ 
+com.ncu.exceptions.InvalidExtensionException: "Oops.. This is not csv file This System Accept Only Csv file ...!"
+
+2019-02-07 22:17:18 INFO  JSONConverter:39 -  !...(*.*) Please Enter Your Csv File Name __:- 
+2019-02-07 22:17:22 INFO  NameValidator:202 - 
+ 
+com.ncu.exceptions.FileNotAvailable: "Oops.. Given File Is File Is Not Available Into Our Directory ...!"
+
+2019-02-07 22:17:22 INFO  NameValidator:203 - Do You Want To See List Of Available csv file Press - y/n  
+2019-02-07 22:17:31 INFO  NameValidator:212 - ----------- All Available Files In Directory --------- 
+2019-02-07 22:17:31 INFO  NameValidator:216 - -contacts.csv
+2019-02-07 22:17:31 INFO  NameValidator:218 - ------------------------------------------------------ 
+2019-02-07 22:17:31 INFO  JSONConverter:39 -  !...(*.*) Please Enter Your Csv File Name __:- 
+2019-02-07 22:17:36 INFO  JSONConverter:63 - !...(*.*) What Will Be Your Converted File Name, Please Enter__:- 
+2019-02-07 22:17:44 INFO  CSVProcessor:38 - Do You Want To Convert This Csv data into Json ..? Please Press y/n :-
+2019-02-07 22:17:46 INFO  CSVProcessor:45 - ---------------Time Duration ---------------------
+2019-02-07 22:17:47 INFO  CSVProcessor:46 - Time Before Process :- Thu Feb 07 22:17:46 IST 2019
+2019-02-07 22:17:47 INFO  CSVProcessor:86 - Internal Problem  Occurred Please Try Again..... !java.lang.ArrayIndexOutOfBoundsException: Index 66 out of bounds for length 66
+
+
+2019-02-07 22:17:47 INFO  JSONConverter:63 - !...(*.*) What Will Be Your Converted File Name, Please Enter__:- 
+2019-02-07 22:19:11 INFO  JSONConverter:39 -  !...(*.*) Please Enter Your Csv File Name __:- 
+2019-02-07 22:19:16 INFO  NameValidator:202 - 
+ 
+com.ncu.exceptions.FileNotAvailable: "Oops.. Given File Is File Is Not Available Into Our Directory ...!"
+
+2019-02-07 22:19:16 INFO  NameValidator:203 - Do You Want To See List Of Available csv file Press - y/n  
+2019-02-07 22:19:19 INFO  NameValidator:212 - ----------- All Available Files In Directory --------- 
+2019-02-07 22:19:19 INFO  NameValidator:218 - ------------------------------------------------------ 
+2019-02-07 22:19:19 INFO  JSONConverter:39 -  !...(*.*) Please Enter Your Csv File Name __:- 
+2019-02-07 22:19:21 ERROR NameValidator:76 - 
+ 
+com.ncu.exceptions.MissingExtensionException: "Oops.. Extension Is Missing .You Should Also Give .csv Extension ...!"
+
+2019-02-07 22:19:21 INFO  JSONConverter:39 -  !...(*.*) Please Enter Your Csv File Name __:- 
+2019-02-07 22:19:22 ERROR NameValidator:76 - 
+ 
+com.ncu.exceptions.MissingExtensionException: "Oops.. Extension Is Missing .You Should Also Give .csv Extension ...!"
+
+2019-02-07 22:19:22 INFO  JSONConverter:39 -  !...(*.*) Please Enter Your Csv File Name __:- 
+2019-02-07 22:19:23 ERROR NameValidator:76 - 
+ 
+com.ncu.exceptions.MissingExtensionException: "Oops.. Extension Is Missing .You Should Also Give .csv Extension ...!"
+
+2019-02-07 22:19:23 INFO  JSONConverter:39 -  !...(*.*) Please Enter Your Csv File Name __:- 
+2019-02-07 22:19:35 ERROR NameValidator:76 - 
+ 
+com.ncu.exceptions.MissingExtensionException: "Oops.. Extension Is Missing .You Should Also Give .csv Extension ...!"
+
+2019-02-07 22:19:35 INFO  JSONConverter:39 -  !...(*.*) Please Enter Your Csv File Name __:- 
+2019-02-07 22:19:36 ERROR NameValidator:76 - 
+ 
+com.ncu.exceptions.MissingExtensionException: "Oops.. Extension Is Missing .You Should Also Give .csv Extension ...!"
+
+2019-02-07 22:19:36 INFO  JSONConverter:39 -  !...(*.*) Please Enter Your Csv File Name __:- 
+2019-02-07 22:19:41 INFO  JSONConverter:39 -  !...(*.*) Please Enter Your Csv File Name __:- 
+2019-02-07 22:19:43 ERROR NameValidator:73 - 
+ 
+com.ncu.exceptions.EmptyNameException: "Oops.. Empty Filename Is Not Acceptable ...!"
+
+2019-02-07 22:19:43 INFO  JSONConverter:39 -  !...(*.*) Please Enter Your Csv File Name __:- 
+2019-02-07 22:19:45 ERROR NameValidator:76 - 
+ 
+com.ncu.exceptions.MissingExtensionException: "Oops.. Extension Is Missing .You Should Also Give .csv Extension ...!"
+
+2019-02-07 22:19:45 INFO  JSONConverter:39 -  !...(*.*) Please Enter Your Csv File Name __:- 
+2019-02-07 22:19:50 INFO  NameValidator:202 - 
+ 
+com.ncu.exceptions.FileNotAvailable: "Oops.. Given File Is File Is Not Available Into Our Directory ...!"
+
+2019-02-07 22:19:50 INFO  NameValidator:203 - Do You Want To See List Of Available csv file Press - y/n  
+2019-02-07 22:19:52 INFO  NameValidator:212 - ----------- All Available Files In Directory --------- 
+2019-02-07 22:19:52 INFO  NameValidator:216 - -contacts.csv
+2019-02-07 22:19:52 INFO  NameValidator:218 - ------------------------------------------------------ 
+2019-02-07 22:19:52 INFO  JSONConverter:39 -  !...(*.*) Please Enter Your Csv File Name __:- 
+2019-02-07 22:19:58 INFO  JSONConverter:63 - !...(*.*) What Will Be Your Converted File Name, Please Enter__:- 
+2019-02-07 22:20:03 ERROR NameValidator:79 - 
+ 
+com.ncu.exceptions.InvalidExtensionException: "Oops.. This is not csv file This System Accept Only Csv file ...!"
+
+2019-02-07 22:20:03 INFO  JSONConverter:63 - !...(*.*) What Will Be Your Converted File Name, Please Enter__:- 
+2019-02-07 22:20:18 INFO  CSVProcessor:38 - Do You Want To Convert This Csv data into Json ..? Please Press y/n :-
+2019-02-07 22:20:20 INFO  CSVProcessor:45 - ---------------Time Duration ---------------------
+2019-02-07 22:20:20 INFO  CSVProcessor:46 - Time Before Process :- Thu Feb 07 22:20:20 IST 2019
+2019-02-07 22:20:20 INFO  CSVProcessor:86 - Internal Problem  Occurred Please Try Again..... !java.lang.ArrayIndexOutOfBoundsException: Index 88 out of bounds for length 88
+
+
+2019-02-07 22:20:20 INFO  JSONConverter:63 - !...(*.*) What Will Be Your Converted File Name, Please Enter__:- 
